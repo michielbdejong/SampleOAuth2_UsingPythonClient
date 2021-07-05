@@ -127,7 +127,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "collect")
 # OAauth2 config here
 CLIENT_ID = os.getenv('CLIENT_ID')
 CLIENT_SECRET = os.getenv('CLIENT_SECRET')
-REDIRECT_URI = os.getenv('CALLBACK_URL') # http://localhost:8000/app/callback'
+REDIRECT_URI = os.getenv('REDIRECT_URL') # http://localhost:8000/app/callback'
 ENVIRONMENT = os.getenv('ENVIRONMENT')
 
 # QBO Base URLs
